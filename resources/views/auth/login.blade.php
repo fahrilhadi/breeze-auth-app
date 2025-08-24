@@ -14,7 +14,7 @@
             @csrf
             <div>
               <label class="block text-sm font-medium mb-1">Email</label>
-              <input type="email" name="email" value="{{ old('email') }}"
+              <input type="email" name="email" value="{{ old('email') }}" autocomplete="off"
                      class="@error('email') is-invalid @enderror w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:border-black focus:ring-0">
             </div>
             <div>
